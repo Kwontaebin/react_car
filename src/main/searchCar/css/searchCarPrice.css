@@ -1,0 +1,47 @@
+#searchCarPrice {
+    float: left;
+    width: 100%;
+    height: 160px;
+    display: none;
+}
+
+#searchCarPrice>select {
+    float: left;
+    width: 180px;
+    height: 60px;
+    position: relative;
+    top: 30px;
+    left: 250px;
+    margin-left: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    border: 1px solid #d8dee8;
+    -o-appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+#searchCarPrice>select:hover {
+    border: 1px solid black !important;
+}
+
+#searchCarPrice>button {
+    float: left;
+    width: 140px;
+    height: 60px;
+    background-color: #b70f28;
+    border: 1px solid #b70f28;
+    position: relative;
+    top: 30px;
+    left: 270px;
+    color: white;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+#searchCarPrice>button:hover {
+    background-color: rgb(231, 14, 14);
+}

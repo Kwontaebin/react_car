@@ -1,0 +1,59 @@
+#carDataDivInner {
+    float: left;
+    width: 280px;
+    height: 400px;
+    margin-left: 10px;
+    margin-top: 10px;
+    position: relative;
+    left: 10px;
+}
+
+#carDataDivInner>#carDataDivInnerImg {
+    float: left;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+#carDataDivInnerImg>img {
+    float: left;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+#carDataDivInner>#carDataDivInnerName {
+    float: left;
+    width: 100%;
+    height: 100px;
+}
+
+#carDataDivInnerName>#carNameText {
+    float: left;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+#carDataDivInner>#carDataDivInnerPrice {
+    float: left;
+    width: 100%;
+    height: 50px;
+}
+
+#carDataDivInnerPrice>p {
+    float: left;
+    font-weight: bold;
+}
+
+#carDataDivInner>#carDataDivInnerFooter { 
+    float: left;
+    width: 100%;
+    height: 50px;
+}
+
+#carDataDivInnerFooter>p {
+    float: left;
+    margin-right: 10px;
+    font-size: 13px;
+    color: darkgray;
+}

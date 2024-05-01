@@ -1,0 +1,37 @@
+.searchLeftHeader {
+    float: left;
+    width: 250px;
+    height: 30px;
+}
+
+.searchLeftHeader>p {
+    display: inline-block;
+    font-size: 14px;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+}
+
+#searchLeft>div {
+    margin-top: 10px;
+}
+
+#searchLeft>#searchLeftTypeDiv {
+    float: left;
+    width: 250px;
+    height: 150px;
+}
+
+#searchLeft>#searchLeftBrandDiv {
+    float: left;
+    width: 250px;
+    height: 200px;
+}
+
+#searchLeft #searchLeftYearDiv, #searchLeftMileageDiv, #searchLeftPriceDiv {
+    float: left;
+    width: 250px;
+    height: 110px;
+    position: relative;
+    top: 40px;
+}

@@ -1,0 +1,92 @@
+#carLeftRecommendPage {
+    float: left;
+    width: 200px;
+    height: 280px;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    margin-left: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2rem 3.2rem -.8rem rgba(84,85,90,.12),0 0 .1rem 0 rgba(22,23,29,.2);
+}
+
+#carLeftRecommendPage>#carLeftRecommendPageImg {
+    float: left;
+    width: 100%;
+    height: 130px;
+    border-radius: 10px 10px 0 0;
+}
+
+#carLeftRecommendPageImg>img {
+    float: left;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+#carLeftRecommendPage>#carLeftRecommendPageName {
+    margin: 0 auto;
+    width: 90%;
+    height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#carLeftRecommendPageName>p {
+    position: relative;
+    bottom: 10px;
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#carLeftRecommendPage>#carLeftRecommendPagePrice {
+    float: left;
+    width: 100%;
+    height: 30px;
+}
+
+#carLeftRecommendPagePrice>p {
+    font-weight: bold;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+}
+
+#carLeftRecommendPage>#carLeftRecommendPageMonthPrice {
+    float: left;
+    width: 100%;
+    height: 30px;
+    position: relative;
+    top: 20px;
+}
+
+#carLeftRecommendPageMonthPrice p {
+    font-weight: bold;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    font-size: 14px;
+}
+
+#carLeftRecommendPage>#carLeftRecommendPageFooter {
+    float: left;
+    width: 100%;
+    height: 30px;
+    position: relative;
+    top: 20px;
+}
+
+#carLeftRecommendPageFooter>p {
+    float: left;
+    font-size: 13px;
+    color: #54555a;
+    margin-left: 10px;
+    position: relative;
+    bottom: 10px;
+}
+
+.hideDiv {
+    visibility: hidden;
+}

@@ -1,0 +1,69 @@
+#searchLeftYear {
+    float: left;
+    width: 100%;
+    height: 110px;
+}
+
+#searchLeftYear>#searchLeftYearBottom {
+    float: left;
+    width: 100%;
+    height: 80px;
+    background-color: #f9fafb;
+}
+
+#searchLeftYearBottom>input {
+    float: left;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: 20px;
+    border-radius: 6px;
+    background-color: white;
+    border: 1px solid #d8dee8;
+    text-align: center;
+    margin-left: 10px;
+}
+
+#searchLeftYearBottom>input:hover {
+    border: 1px solid black;
+}
+
+#searchLeftYearBottom>#searchLeftYearLowList {
+    float: left;
+    width: 100px;
+    height: 250px;
+    background-color: white;
+    z-index: 999;
+    position: relative;
+    left: 13px;
+    bottom: 270px;
+    overflow-y: scroll;
+    display: none;
+}
+
+#searchLeftYearBottom>#searchLeftYearHighList {
+    float: left;
+    width: 100px;
+    height: 250px;
+    background-color: white;
+    z-index: 999;
+    position: absolute;
+    left: 130px;
+    bottom: 67px;
+    overflow-y: scroll;
+    display: none;
+}
+
+#searchLeftYearBottom>#searchLeftYearLowList>input, #searchLeftYearHighList>input {
+    float: left;
+    width: 90px;
+    height: 35px;
+    font-weight: 400;
+    border: 1px solid white;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+}
+
+#searchLeftYearBottom>#searchLeftYearLowList::-webkit-scrollbar, #searchLeftYearHighList::-webkit-scrollbar {
+    display: none;
+}

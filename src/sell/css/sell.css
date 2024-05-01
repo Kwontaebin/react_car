@@ -1,0 +1,46 @@
+#sellDiv {
+    float: left;
+    width: 1200px;
+    height: 1090px;
+}
+
+#sellDiv>#sellDivInner {
+    margin: 30px auto;
+    width: 800px;
+    height: 1050px;
+}
+
+#sellDivInner>#sellDivInnerHeader {
+    float: left;
+    width: 100%;
+    height: 40px;
+}
+
+#sellDivInnerHeader>h2 {
+    float: left;
+    position: relative;
+    left: 310px;
+    bottom: 13px;
+}
+
+#sellDivInnerMain>#sellDivInnerMainFooter {
+    float: left;
+    width: 100%;
+    height: 100px;
+}
+
+#sellDivInnerMainFooter>button {
+    float: left;
+    width: 400px;
+    height: 60px;
+    background-color: #b70f28;
+    border: 1px solid #b70f28;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    top: 15px;
+    left: 220px;
+    font-size: 18px;
+}

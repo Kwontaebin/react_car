@@ -1,0 +1,48 @@
+#searchLeftBrand {
+    float: left;
+    width: 250px;
+    height: 200px;
+}
+
+#searchLeftBrand>#searchLeftBrandBottom {
+    float: left;
+    width: 100%;
+    height: 170px;
+    background-color: #f9fafb;
+    overflow-y: scroll;
+}
+
+#searchLeftBrand>#searchLeftBrandBottom::-webkit-scrollbar {
+    display: none;
+}
+
+#searchLeftBrandBottom div {
+    float: left;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 3px;
+}
+
+#searchLeftBrandBottom>div>input {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    position: relative;
+    top: 3px;
+}
+
+#searchLeftBrandBottom div label {
+    position: relative;
+    left: 10px;
+    font-size: 16px;
+}
+
+#searchLeftBrandBottom div p{
+    float: right;
+    position: relative;
+    bottom: 8px;
+    right: 20px;
+    color: #54555a;
+    font-weight: 400;
+    font-size: 14px;
+}

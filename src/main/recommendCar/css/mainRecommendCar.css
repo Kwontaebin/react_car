@@ -1,0 +1,81 @@
+#mainRecommendCar>#mainRecommendCarHeader {
+    float: left;
+    width: 1200px;
+    height: 70px;
+}
+
+#mainRecommendCarHeader>h1 {
+    position: relative;
+    bottom: 10px;
+    left: 20px;
+}
+
+#mainRecommendCar>#mainRecommendCarMain {
+    float: left;
+    width: 3600px;
+    height: 480px;
+}
+
+#mainRecommendCar>#mainRecommendCarFooter {
+    float: left;
+    width: 1200px;
+    height: 50px;
+}
+
+#mainRecommendCarFooter>#mainRecommendCarFooterLeft {
+    float: left;
+    width: 1050px;
+    height: 2px;
+    position: relative;
+    top: 20px;
+}
+
+#mainRecommendCarFooterLeft>div {
+    float: left;
+    width: 350px;
+    height: 2px;
+    background-color: #eee;
+}
+
+.mainRecommendCarFooterPage {
+    background-color: black !important;
+}
+
+#mainRecommendCarFooter>#mainRecommendCarFooterRight {
+    float: right;
+    width: 150px;
+    height: 50px;
+}
+
+#leftArrow {
+    float: left;
+    width: 30px;
+    height: 30px;
+    background-image: url('../../../images/recommendLeftImg.svg');
+    position: relative;
+    top: 7px;
+    left: 10px;
+}
+
+#mainRecommendCarFooterRight>p {
+    float: left;
+    position: relative;
+    left: 20px;
+    bottom: 5px;
+    font-size: 17px;
+}
+
+.recommendCarCurrendPageColor {
+    color: red !important;
+    font-weight: bold;
+}
+
+#mainRecommendCarFooterRight>#rightArrow {
+    float: left;
+    width: 30px;
+    height: 30px;
+    background-image: url('../../../images/recommendRightImg.svg');
+    position: relative;
+    top: 7px;
+    left: 30px;
+}

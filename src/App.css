@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+a {
+  text-decoration: none;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#app {
+  margin: 0 auto;
+  width: 1200px;
+  height: 100%;
+}
+
+div {
+  user-select: none;
+  -webkit-user-select: none;
+  /* (safari, chrome) browsers */
+  -moz-user-select: none;
+  /* mozilla browsers */
+  -khtml-user-select: none;
+  /* konqueror browsers */
+
+  -ms-user-select: none; /* IE10+ */
+
+}
+
+p, span, input, ul, li {
+  cursor: pointer;
+}
+
+input, select {
+  outline: none;
+}

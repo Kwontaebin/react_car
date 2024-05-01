@@ -1,0 +1,87 @@
+#viewDetailCar {
+    float: left;
+    width: 1200px;
+    height: 1200px;
+}
+
+#viewDetailCar>#viewDetailCarHeader {
+    float: left;
+    width: 1200px;
+    height: 150px;
+}
+
+#viewDetailCarHeader>#viewDetailCarHeaderTop {
+    float: left;
+    width: 100%;
+    height: 75px;
+}
+
+#viewDetailCarHeaderTop>#carName {
+    float: left;
+}
+
+#viewDetailCarHeaderTop>#carPrice {
+    float: right;
+    color: #b70f28;
+}
+
+#viewDetailCarHeader>#viewDetailCarHeaderBottom {
+    float: left;
+    width: 100%;
+    height: 75px;
+}
+
+#viewDetailCarHeaderBottom>p {
+    float: left;
+    margin-right: 20px;
+    font-size: 18px;
+    color: #54555a;
+    position: relative;
+    bottom: 10px;
+}
+
+#viewDetailCar>#viewDetailCarImg {
+    float: left;
+    width: 1200px;
+    height: 600px;
+}
+
+#viewDetailCarImg>#carImg1,#carImg2  {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+#viewDetailCarImg>#carImgLeftArrow, #carImgRightArrow {
+    width: 55px;
+    height: 55px;
+}
+
+#viewDetailCarImg>#carImgLeftArrow {
+    float: left;
+    position: relative;
+    bottom: 300px;
+}
+
+#viewDetailCarImg>#carImgRightArrow {
+    float: right;
+    position: relative;
+    bottom: 300px;
+}
+
+.hideCarImgClass {
+    display: none;
+}
+
+#viewDetailCar>#viewDetailCarMain {
+    float: left;
+    width: 1200px;
+    height: 550px;
+    margin-top: 50px;
+}
+
+#viewDetailCarMain>#viewDetailCarMainLeft {
+    float: left;
+    width: 800px;
+    height: 700px;
+}

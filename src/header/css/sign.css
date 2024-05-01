@@ -1,0 +1,118 @@
+#signDiv {
+    float: left;
+    position: fixed;
+    top: 150px;
+    left: 600px;
+    width: 400px;
+    height: 550px;
+    background-color: white;
+    z-index: 999;
+    border-radius: 4px;
+    display: none;
+}
+
+#signDiv>#signDivHeader {
+    float: left;
+    width: 100%;
+    height: 30px;
+    border-radius: 4px 4px 0 0 ;
+}
+
+#signDivHeader>img {
+    float: right;
+    position: relative;
+    top: 3px;
+    right: 10px;
+}
+
+#signDiv>#signDivMain {
+    float: left;
+    width: 100%;
+    height: 370px;
+    border-radius: 0 0 4px 4px;
+}
+
+#signDivMain>#signDivMainHeader {
+    float: left;
+    width: 100%;
+    height: 50px;
+}
+
+#signDivMainHeader>p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#signDivMain>#signDivMainCenter {
+    float: left;
+    width: 100%;
+    height: 470px;
+}
+
+#signDivMainCenter>#signDivMainCenterName {
+    float: left;
+    width: 350px;
+    height: 100px;
+    background-color: white;
+    position: relative;
+    left: 25px;
+}
+
+#signDivMainCenterName>p, #signDivMainCenterEmail>p, #signDivMainCenterPasswordTop>p, #signDivMainCenterPasswordBottom>p {
+    font-weight: bold;
+}
+
+#signDivMainCenterName>input, #signDivMainCenterEmail>input, #signDivMainCenterPasswordTop>input, #signDivMainCenterPasswordBottom>input {
+    float: left;
+    width: 95%;
+    height: 30px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+#signDivMainCenter>#signDivMainCenterEmail {
+    float: left;
+    width: 350px;
+    height: 100px;
+    position: relative;
+    left: 25px;
+}
+
+#signDivMainCenter>#signDivMainCenterPassword {
+    float: left;
+    width: 350px;
+    height: 200px;
+    position: relative;
+    left: 25px;
+}
+
+#signDivMainCenterPassword>div {
+    float: left;
+    width: 100%;
+    height: 100px;
+}
+
+#signDivMainCenter>#signDivMainCenterbutton {
+    float: left;
+    width: 350px;
+    height: 70px;
+    position: relative;
+    left: 25px;
+}
+
+#signDivMainCenterbutton>button {
+    float: left;
+    width: 97%;
+    height: 40px;
+    background-color: rgb(237, 68, 68);
+    border: 1px solid rgb(237, 68, 68);
+    border-radius: 4px;
+    position: relative;
+    top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}

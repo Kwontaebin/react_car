@@ -1,0 +1,44 @@
+#myPageDiv {
+    float: left;
+    width: 1200px;
+    height: 930px;
+}
+
+#myPageDiv>#myPageDivHeader {
+    float: left;
+    width: 100%;
+    height: 50px;
+}
+
+#myPageDivHeader>p {
+    float: left;
+    margin-left: 50px;
+    font-weight: bold;
+    position: relative;
+    left: 470px;
+    bottom: 10px;
+    font-size: 20px;
+}
+
+.currentPageText {
+    color: #b70f28 !important;
+}
+
+#myPageDiv>#myPageFavoriteDivMain {
+    float: left;
+    width: 100%;
+    height: 800px;
+}
+
+#myPageDiv>#myPageBuyDivMain {
+    float: left;
+    width: 100%;
+    height: 800px;
+    display: none;
+}
+
+#myPageDiv>#myPageDivFooter {
+    float: left;
+    width: 100%;
+    height: 80px;
+}

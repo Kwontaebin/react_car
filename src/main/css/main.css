@@ -1,0 +1,32 @@
+#main {
+    float: left;
+    width: 100%; 
+    height: 1560px; /* margin-top: 20px; 까지 포함한 높이 */
+}
+
+#main>div {
+    margin-top: 20px;
+}
+
+#main>#mainImgSlide {
+    float: left;
+    width: 100%;
+    height: 400px;
+}
+
+#main>#mainSearchCar {
+    float: left;
+    width: 1600px;
+    height: 500px;
+    background-color: ghostwhite;
+    position: relative;
+    right: 200px;
+}
+
+#main>#mainRecommendCar {
+    float: left;
+    width: 1200px;
+    height: 600px;
+    background-color: white;
+    overflow: hidden;
+}

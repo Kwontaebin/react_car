@@ -1,0 +1,29 @@
+#searchLeftType {
+    float: left;
+    width: 100%;
+    height: 150px;
+    border-top: 1px solid #ebeef5;
+}
+
+#searchLeftType>#searchLeftTypeBottom {
+    float: left;
+    width: 100%;
+    height: 120px;
+    background-color: #f9fafb;
+}
+
+#searchLeftType>#searchLeftTypeBottom>input {
+    float: left;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    margin: 10px 0 0 10px;
+    position: relative;
+    left: 6px;
+    background-color: white;
+    border: 1px solid #d8dee8;
+}
+
+#searchLeftType>#searchLeftTypeBottom>input:hover {
+    border: 1px solid black;
+}

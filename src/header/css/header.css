@@ -1,0 +1,87 @@
+#header {
+    float: left;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+
+#header>#headerTop {
+    float: left;
+    width: 100%;
+    height: 30px;
+}
+
+#headerTop>#headerTopInner {
+    float: right;
+    width: 120px;
+    height: 15px;
+    position: relative;
+    top: 10px;
+    right: 20px;
+}
+
+#headerTopInner>#headerTopInnerLeft {
+    float: left;
+    width: 59px;
+    height: 15px;
+    border-right: 1px solid darkgray;
+}
+
+#headerTopInner>#headerTopInnerRight {
+    float: left;
+    width: 60px;
+    height: 15px;
+}
+
+#headerTopInner div p {
+    float: left;
+    font-size: 15px;
+    position: relative;
+    bottom: 16px;
+    left: 7px;
+    color: darkgray;
+}
+
+#header>#headerBottom {
+    float: left;
+    width: 100%;
+    height: 70px;
+}
+
+#headerBottom>img {
+    float: left;
+    position: relative;
+    top: 10px;
+}
+
+#headerBottom>input {
+    float: left;
+    width: 500px;
+    height: 30px;
+    position: relative;
+    top: 25px;
+    left: 30px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#headerBottom>#searchImgBtn {
+    position: left;
+    top: 28px;
+}
+
+#headerBottom>p {
+    float: right;
+    position: relative;
+    top: 5px;
+    right: 40px;
+    font-weight: bold;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.hideText {
+    display: none;
+}

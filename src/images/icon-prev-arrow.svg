@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Button/Secondary/Medium/Icon/Default Copy 2</title>
+    <g id="차량상세" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="[PC]-차량상세" transform="translate(-706.000000, -5332.000000)">
+            <g id="TAB" transform="translate(350.000000, 2701.000000)">
+                <g id="AI추천차량" transform="translate(0.000000, 2163.000000)">
+                    <g id="Button/Secondary/Medium/Icon/Default-Copy" transform="translate(356.000000, 468.000000)">
+                        <g id="_Base-/-Container-/-Radius-Small" stroke="#D8DEE8">
+                            <rect id="Rectangle" x="0.5" y="0.5" width="39" height="39" rx="4"></rect>
+                        </g>
+                        <g id="icon-/-Arrows-/-Left" transform="translate(12.000000, 12.000000)">
+                            <polygon id="Fill-1" opacity="0" points="0 16 16 16 16 0 0 0"></polygon>
+                            <g id="bk" transform="translate(4.666667, 2.000000)" stroke="#16171D" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline id="Stroke-3" points="6.07028571 0 0 5.92971429 6.07028571 12"></polyline>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

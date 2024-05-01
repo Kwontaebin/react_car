@@ -1,0 +1,120 @@
+#loginDiv {
+    float: left;
+    position: fixed;
+    top: 200px;
+    left: 600px;
+    width: 400px;
+    height: 420px;
+    background-color: white;
+    z-index: 999;
+    border-radius: 4px;
+    display: none;
+}
+
+#loginDiv>#loginDivHeader {
+    float: left;
+    width: 100%;
+    height: 30px;
+    border-radius: 4px 4px 0 0 ;
+}
+
+#loginDivHeader>img {
+    float: right;
+    position: relative;
+    top: 3px;
+    right: 10px;
+}
+
+#loginDiv>#loginDivMain {
+    float: left;
+    width: 100%;
+    height: 420px;
+    border-radius: 0 0 4px 4px;
+}
+
+#loginDivMain>#loginDivMainHeader {
+    float: left;
+    width: 100%;
+    height: 50px;
+}
+
+#loginDivMainHeader>p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#loginDivMain>#loginDivMainCenter {
+    float: left;
+    width: 100%;
+    height: 370px;
+}
+
+#loginDivMainCenter>#loginDivMainCenterEmail, #loginDivMainCenterPassword {
+    float: left;
+    width: 350px;
+    height: 100px;
+    position: relative;
+    left: 25px;
+}
+
+#loginDivMainCenterEmail>p, #loginDivMainCenterPassword>p {
+    font-weight: bold;
+}
+
+#loginDivMainCenterEmail>input, #loginDivMainCenterPassword>input {
+    float: left;
+    width: 95%;
+    height: 30px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+ 
+#loginDivMainCenter>#loginDivMainCenterLoginBtn {
+    float: left;
+    width: 350px;
+    height: 120px;
+    position: relative;
+    left: 25px;
+}
+
+#loginDivMainCenterLoginBtn>#loginDivMainCenterLoginBtnTop {
+    float: left;
+    width: 100%;
+    height: 80px;
+}
+
+#loginDivMainCenterLoginBtnTop>button {
+    float: left;
+    width: 97%;
+    height: 40px;
+    background-color: rgb(237, 68, 68);
+    border: 1px solid rgb(237, 68, 68);
+    border-radius: 4px;
+    position: relative;
+    top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+#loginDivMainCenterLoginBtn>#loginDivMainCenterLoginBtnBottom {
+    float: left;
+    width: 100%;
+    height: 40px;
+}
+
+#loginDivMainCenterLoginBtnBottom>p {
+    float: left;
+    font-size: 14px;
+    color: darkgray;
+    margin-left: 10px;
+    position: relative;
+    left: 60px;
+}
+
+#loginDivMainCenterLoginBtnBottom>p:last-child {
+    text-decoration: underline;
+}

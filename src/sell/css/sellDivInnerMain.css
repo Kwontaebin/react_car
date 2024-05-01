@@ -1,0 +1,134 @@
+#sellDivInner>#sellDivInnerMain {
+    float: left;
+    width: 100%;
+    height: 1020px;
+}
+
+#sellDivInnerMain>#sellDivInnerMainImg {
+    float: left;
+    width: 100%;
+    height: 360px;
+}
+
+#sellDivInnerMainImg>#sellDivInnerMainImgInner {
+    float: left;
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    position: relative;
+    top: 20px;
+    left: 200px;
+}
+
+#sellDivInnerMainImgInner>#imgPreview {
+    float: left;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../images/previewImg.png');
+    background-repeat : no-repeat;
+    background-position: 70px;
+}
+
+#sellDivInnerMainImg>#inputFile {
+    float: left;
+    position: relative;
+    top: 330px;
+    right: 70px;
+}
+
+#sellDivInnerMain>.sellDivInnerMainDiv {
+    float: left;
+    width: 100%;
+    height: 110px;
+    margin-top: 30px;
+}
+
+#sellDivInnerMainBrand>p, #sellDivInnerMainName>p {
+    float: left;
+    position: relative;
+    left: 60px;
+    bottom: 10px;
+    font-weight: bold;
+}
+
+#sellDivInnerMainBrand>input, #sellDivInnerMainName>input {
+    float: left;
+    width: 80%;
+    height: 60px;
+    border: 1px solid #d8dee8;
+    border-radius: 4px;
+    position: relative;
+    top: 30px;
+    left: 20px;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+#sellDivInnerMainBrand>input:hover, #sellDivInnerMainName>input:hover {
+    border: 1px solid black;
+}
+
+#sellDivInnerMainColorYearType>div {
+    float: left;
+    width: 33%;
+    height: 100%;
+}
+
+#sellDivInnerMainColorYearType>div>p {
+    float: left;
+    position: relative;
+    bottom: 10px;
+    left: 20px; 
+    font-weight: bold;
+}
+
+#sellDivInnerMainColorYearType>div>input {
+    float: left;
+    width: 80%;
+    height: 60px;
+    border: 1px solid #d8dee8;
+    border-radius: 4px;
+    position: relative;
+    top: 30px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+#sellDivInnerMainColorYearType>div>input:hover {
+    border: 1px solid black;
+}
+
+#sellDivInnerMainPriceMileage>div {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+#sellDivInnerMainPriceMileage>div>p {
+    float: left;
+    position: relative;
+    bottom: 10px;
+    left: 30px;
+    font-weight: bold;
+}
+
+#sellDivInnerMainPriceMileage>#sellDivInnerMainMileage>p {
+    position: relative;
+    left: 50px !important;
+}
+
+#sellDivInnerMainPriceMileage>div>input {
+    float: left;
+    width: 80%;
+    height: 60px;
+    border: 1px solid #d8dee8;
+    border-radius: 4px;
+    position: relative;
+    top: 30px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+#sellDivInnerMainPriceMileage>div>input:hover {
+    border: 1px solid black;
+}
