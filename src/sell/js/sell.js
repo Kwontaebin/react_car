@@ -101,6 +101,7 @@ export default function Sell() {
             const result = await axios.post(`/uploadCar`, carUploadObj);
             console.log(result);
             alert('차량등록 완료');
+            window.localStorage.href='/';
             return;
         }
     }
