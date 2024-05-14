@@ -46,6 +46,7 @@ export default function Login() {
                 alert('로그인 성공')
 
                 window.location.href='/';
+                return;
             }
         }
         // eslint-disable-next-line react-hooks/exhaustive-deps
