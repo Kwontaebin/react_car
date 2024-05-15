@@ -110,8 +110,8 @@
 <img src="/images/logout_img2.png" width="600" height="400">
 
 ### 메인 페이지
-- 메인 화면의 이미지를 글자와 화삺표를 클릭해서 움직이게 할수있습니다.
-<video width="600" height="400" src="/images/main_img1.mp4" autoplay muted loop></video>
+- 메인 화면의 이미지를 글자와 화살표를 클릭해서 움직이게 할수있습니다.
+<img width="600" height="400" src="![GIFMaker_me](https://github.com/Kwontaebin/react_car/assets/144872939/f47fd872-b199-451f-aaca-e1d73c0f5c6f)">
 
 - 해쉬테그 차량이름을 클릭하여 원하는 차량을 찾아볼수 있습니다.
 - 조건을 넣어서 원하는 차량을 찾을수 있습니다.
