@@ -112,7 +112,7 @@
 ### 메인 페이지
 - 메인 화면의 이미지를 글자와 화살표를 클릭해서 움직이게 할수있습니다.
 - 위 의 창에 차량이름을 입력하고 엔터를 누르면 차량을 정보를 찾을수 있습니다.
-<img src="/images/main_img1.png" width="600" height="400">
+<img src="/images/main_img6.png" width="600" height="400">
 <img src="/images/main_img2.png" width="600" height="400">
 
 
@@ -127,8 +127,72 @@
 
 
 ### 검색 페이지
-- 검색 페이지는 해당 텍스트를 클리하여 접속할수있습니다.
-<img src="/images/search_img1.png" width="600" height="400">
+- 검색 페이지는 해당 텍스트를 클릭하여 접속할수있습니다.
+<img src="/images/search_img8.png" width="600" height="400">
 
 - 자신이 원하는 조건을 선택해서 조건에 맞는 차량을 찾을수있습니다.
+- 이때 조건들은 로컬 스토리지에 저장됩니다.
 - 차량을 클릭하면 상세보기 페이지로 이동하며 차량을 상세하게 볼수있습니다.
+<img src="/images/search_img7.png" width="600" height="400">
+<img src="/images/search_img2.png" width="600" height="400">
+
+- 해당 버튼을 클릭하면 로컬 스토리지를 초기화합니다.
+<img src="/images/search_img3.png" width="600" height="400">
+
+- 검색창에 차량을 검색해서 찾고싶은 차량을 찾을수 있습니다.
+<img src="/images/search_img4.png" width="600" height="400">
+<img src="/images/search_img5.png" width="600" height="400">
+
+- 페이지네이션을 통해 페이지를 이동할수있습니다.
+- react-js-pagination 라이브러리를 사용해서 페이지네이션을 구현했습니다.
+<img src="/images/search_img6.png" width="600" height="400">
+
+### 상세보기 페이지
+- 화살표를 눌러 차량의 여러개의 차량 이미지를 볼수있습니다.
+<img src="/images/detail_img1.png" width="600" height="400">
+
+- 차량의 정보를 전보다 상세하게 확인할수있습니다.
+<img src="/images/detail_img9.png" width="600" height="400">
+
+- 지금 보고있는 차량과 같은 차종의 차량을 볼수있습니다.
+- 화살표를 눌러 뒤에 있는 차량도 볼수있습니다.
+<img src="/images/detail_img2.png" width="600" height="400">
+
+- 차량을 관심목록에 추가할수있습니다.
+<img src="/images/detail_img3.png" width="600" height="400">
+<img src="/images/detail_img4.png" width="600" height="400">
+
+- 관심목록에 추가한 차량을 관심목록 취소 할수있습니다.
+<img src="/images/detail_img5.png" width="600" height="400">
+<img src="/images/detail_img6.png" width="600" height="400">
+
+- 차량을 구매할수있습니다.
+<img src="/images/detail_img7.png" width="600" height="400">
+<img src="/images/detail_img8.png" width="600" height="400">
+
+### 차량 판매 페이지
+- 해당 텍스트를 클릭하면 차량 판매 페이지로 이동합니다.
+<img src="/images/sell_img4.png" width="600" height="400">
+
+- 모든 칸을 채우지 않으면 차량을 등록할수없습니다.
+<img src="/images/sell_img1.png" width="600" height="400">
+<img src="/images/sell_img2.png" width="600" height="400">
+
+- 모든 칸을 채우면 차량등록에 성공합니다.
+<img src="/images/sell_img3.png" width="600" height="400">
+
+### 내 페이지
+- 해당 텍스트를 클릭해서 내 페이지로 이동할수있습니다.
+<img src="/images/my_page_img1.png" width="600" height="400">
+
+- 나의 관심목록을 볼수있습니다.
+<img src="/images/my_page_img2.png" width="600" height="400">
+
+- 나의 차량 구매목록을 볼수있습니다.
+<img src="/images/my_page_img3.png" width="600" height="400">
+
+## 4. 성능
+- Lighthouse를 사용하여 측정한 프로젝트의 성능입니다.
+<img src="/images/value_img1.png" width="600" height="400">
+<img src="/images/value_img2.png" width="800" height="400">
+<img src="/images/value_img3.png" width="800" height="400">
