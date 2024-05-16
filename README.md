@@ -83,13 +83,13 @@
 <img src="/images/sign_img3.png" width="600" height="400">
 
 - 비밀번호와 비밀번호 확인이 일치하지 않다면 경고창을 보여줍니다.
-- 비밀번호를 DB에 저장시 crypto-js 라이브러리를 사용해서 암호화로 저장합니다.
 <img src="/images/sign_img4.png" width="600" height="400">
 
 - 전부다 작성하지 않을경우 경고창을 보여줍니다.
 <img src="/images/sign_img5.png" width="600" height="400">
 
 - 회원가입 성공시 화면입니다.
+- 비밀번호를 DB에 저장시 crypto-js 라이브러리를 사용해서 암호화로 저장합니다.
 <img src="/images/sign_img6.png" width="600" height="400">
 
 ### 로그인
