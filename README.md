@@ -16,6 +16,7 @@
 - #### Front-end : React, javaScript, jQuery, Html, Css
 - #### back-end : Mysql, Node-js
 - #### 디자인 참고 : Kcar
+- #### 차량 이미지, 정보 출처: Kcar
 
 ## 2. 프로젝트 구조
 📦src <br/>
