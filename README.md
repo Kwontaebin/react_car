@@ -104,7 +104,7 @@
 <img src="/images/login_img4.png" width="600" height="400">
 
 - 로그인 성공시 화면입니다.
-- 로그인 성공시 react-cookies 라이브러리를 사용하여 로그인 성공한 유저의 컬럼(Id, Name)을 쿠키에 저장합니다
+- 로그인 성공시 react-cookies 라이브러리를 사용하여 로그인 성공한 유저의 필드(Id, Name)를 쿠키에 저장합니다
 - 로그인에 성공하면 "로그인 ㅣ 회원가입" 이었던 화면이 "내정보 ㅣ 로그아웃"으로 변경됩니다.
 <img src="/images/login_img5.png" width="600" height="400">
 
